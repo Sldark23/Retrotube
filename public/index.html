@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Retrotube</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div>
+    <form id="searchForm">
+      <input type="text" id="searchInput" placeholder="Search for videos..." required>
+      <button type="submit">Search</button>
+    </form>
+  </div>
+  <div id="app"></div>
+  <div id="player" style="display: none;">
+    <iframe id="videoPlayer" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
